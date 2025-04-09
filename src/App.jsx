@@ -6,7 +6,7 @@ import About from "./Pages/About";
 import Products from "./Pages/Products";
 import Contact from "./Pages/Contact";
 import Gallery from "./Pages/Gallery";
-
+import Footer from "./Components/Footer";
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/gallery" element={<Gallery />} />
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );
