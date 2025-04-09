@@ -209,11 +209,11 @@ function Home() {
               </p>
               <form action="#" className="w-full mx-8 p-4">
                 <div className="w-full flex gap-4 mb-4">
-                  <input type="text" placeholder="First Name" name="firstName" required className="p-2 border-1 border-gray-300 focus:border-primary text-thick w-1/2" data-aos="fade-left" />
-                  <input type="text" placeholder="Last Name" name="lastName" required className="p-2 border-1 border-gray-300 focus:border-primary text-thick w-1/2" data-aos="fade-left" data-aos-delay="100" />
+                  <input type="text" placeholder="First Name" name="firstName" required autoComplete="on" className="p-2 border-1 border-gray-300 focus:border-primary text-thick w-1/2" data-aos="fade-left" />
+                  <input type="text" placeholder="Last Name" name="lastName" required autoComplete="on" className="p-2 border-1 border-gray-300 focus:border-primary text-thick w-1/2" data-aos="fade-left" data-aos-delay="100" />
                 </div>
                 <div className="mb-4">
-                  <input type="email" placeholder="email" name="email" required className="p-2 border-1 border-gray-300 focus:border-primary text-thick w-full" data-aos="fade-left" data-aos-delay="200" />
+                  <input type="email" placeholder="email" name="email" required autoComplete="on" className="p-2 border-1 border-gray-300 focus:border-primary text-thick w-full" data-aos="fade-left" data-aos-delay="200" />
                 </div>
                 <div>
                   <textarea name="remark" placeholder="request or query" required className="w-full" data-aos="fade-left" data-aos-delay="300"></textarea>
