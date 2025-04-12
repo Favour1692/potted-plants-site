@@ -56,19 +56,19 @@ const Products = () => {
           <h2 className="text-5xl text-white" data-aos="fade-down" data-aos-delay="200">
             Products
           </h2>
-          <p className="text-lg text-secondary text-center" data-aos="fade-down" data-aos-delay="200">
-            We provide a variety of plants for different purposes and settings, including indoor, outdoor, air purifying plants and plant gifts. Our plants are grown naturally and with love.
-          </p>
         </div>
       </div>
       <div className="container">
-        <div className="bg-[#272319] py-8 px-8 my-4 rounded-2xl text-secondary">
+        <p className="py-2" data-aos="fade-down" data-aos-delay="200">
+          We provide a variety of plants for different purposes and settings, including indoor, outdoor, air purifying plants and plant gifts. Our plants are grown naturally and with love.
+        </p>
+        <div className="bg-[#272319] py-8 px-4 my-4 rounded-2xl text-secondary">
           <div>
             <h3 className="text-4xl text-white font-semibold font-subheadings" data-aos="fade-right">
               Explore our Collections
             </h3>
-            <h3 className="font-subheadings text-white font-2xl">
-              Select a category: <span className="md:hidden">{display ? <RiArrowDropUpLine onClick={handleDisplay} className="text-xl" /> : <RiArrowDropDownLine onClick={handleDisplay} className="text-xl" />} </span>
+            <h3 className="font-subheadings text-white text-2xl">
+              Select a category: <span className="md:hidden">{display ? <RiArrowDropUpLine onClick={handleDisplay} className="text-2xl" /> : <RiArrowDropDownLine onClick={handleDisplay} className="text-2xl" />} </span>
             </h3>
           </div>
           <div className="hidden md:flex flex-col md:flex-row gap-4 md:gap-8 xl:gap-12 items-center w-fit mx-auto font-2xl">

@@ -83,11 +83,11 @@ const Contact = () => {
         </div>
       </div>
       <div className="container">
-        <div>
-          <h3 className="py-4" data-aos="fade-right">
+        <div className="py-4">
+          <h3 className="py-2" data-aos="fade-right">
             Reach out to us today
           </h3>
-          <p className="py-4" data-aos="fade-up" data-aos-delay="100">
+          <p className="pb-4" data-aos="fade-up" data-aos-delay="100">
             Have questions or need help choosing the perfect plant? Reach out to us today—we’re happy to assist you with expert advice, order inquiries, or plant care tips.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 xl:w-[80%] mx-auto">
@@ -102,11 +102,11 @@ const Contact = () => {
             ))}
           </div>
         </div>
-        <div className="py-8">
-          <h3 className="py-4" data-aos="fade-right">
+        <div className="py-4">
+          <h3 className="py-2" data-aos="fade-right">
             Follow our socials
           </h3>
-          <p className="py-4" data-aos="fade-up" data-aos-delay="100">
+          <p className="pb-2" data-aos="fade-up" data-aos-delay="100">
             Stay connected with us on social media for the latest plant care tips, new arrivals, and exclusive offers. Follow us today and join our growing community of plant lovers.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 xl:w-[80%] mx-auto">

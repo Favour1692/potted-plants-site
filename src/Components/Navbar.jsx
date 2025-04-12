@@ -64,28 +64,30 @@ function Navbar() {
         <Link to="/products">
           <button className="hidden md:block text-lg py-1 px-3 rounded-2xl bg-secondary hover:bg-primary hover:text-secondary duration-100 border-2">Place an order</button>
         </Link>
-        {open ? <IoClose onClick={handleClick} className="text-xl md:hidden" /> : <IoMenu onClick={handleClick} className="text-xl md:hidden" />}
+        {open ? <IoClose onClick={handleClick} className="text-xl md:hidden z-50" /> : <IoMenu onClick={handleClick} className="text-xl md:hidden z-50" />}
 
         <AnimatePresence mode="wait">
           {open && (
             <motion.div
-              initial={{ opacity: 0, x: 100 }}
+              initial={{ opacity: 0, x: -100 }}
               animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: 100 }}
+              exit={{ opacity: 0, x: -100 }}
               transition={{
                 duration: 0.3,
               }}
-              className="md:hidden absolute top-16 left-0 w-full h-auto bg-[#333]/70 flex flex-col gap-6 py-12 items-center rounded-3xl backdrop-blur-sm ">
-              {Menu.map((data) => (
-                <NavLink to={data.link} key={data.id} onClick={handleClick} className={({ isActive }) => (isActive ? "text-primary shadow-[0_3px_0_#7c8363]" : "text-[#ffefd5] shadow-none")}>
-                  {data.title}
-                </NavLink>
-              ))}
-              <Link to="/products">
-                <button className="text-lg py-1 px-3 rounded-xl bg-thick duration-100" onClick={handleClick}>
-                  Place an order
-                </button>
-              </Link>
+              className="md:hidden absolute top-0 left-0 w-full h-[100vh] bg-[#333]/10 backdrop-blur-sm ">
+              <div className="w-[60%] h-full flex flex-col gap-6 py-16 bg-[#333] items-center">
+                {Menu.map((data) => (
+                  <NavLink to={data.link} key={data.id} onClick={handleClick} className={({ isActive }) => (isActive ? "text-primary shadow-[0_3px_0_#7c8363]" : "text-[#ffefd5] shadow-none")}>
+                    {data.title}
+                  </NavLink>
+                ))}
+                <Link to="/products">
+                  <button className="md:hidden text-lg py-1 px-3 rounded-2xl bg-secondary hover:bg-primary hover:text-secondary duration-100 border-2" onClick={handleClick}>
+                    Place an order
+                  </button>
+                </Link>
+              </div>
             </motion.div>
           )}
         </AnimatePresence>

@@ -7,7 +7,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className="bg-thick text-secondary py-4">
-      <div className="container grid grid-cols-1 md:grid-cols-4 gap-8 ">
+      <div className="container grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 ">
         <div>Potted Plants</div>
         <div className="flex flex-col gap-4">
           <h4 className="text-lg font-semibold">Quick Links</h4>

@@ -76,35 +76,35 @@ const About = () => {
           {/* success story */}
           <div>
             <h3 data-aos="fade-right">Our proven success</h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 max-w-[80%] mx-auto gap-4">
-              <div className="flex flex-col items-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 md:max-w-[80%] w-full md:mx-auto gap-4">
+              <div className="flex flex-col md:items-center">
                 <h3 className="font-subheadings tracking-wider">Happy customers</h3>
-                <div className="text-xl md:text-2xl text-brown">
+                <div className="text-xl md:text-2xl text-brown text-center md:text-left">
                   <CountUp end={500} duration={5} enableScrollSpy={true} scrollSpyOnce={false} scrollSpyDelay={1000} />+
                 </div>
               </div>
-              <div className="flex flex-col items-center">
+              <div className="flex flex-col md:items-center">
                 <h3 className="font-subheadings tracking-wider">Plants delivered</h3>
-                <div className="text-xl md:text-2xl text-brown">
+                <div className="text-xl md:text-2xl text-brown text-center md:text-left">
                   <CountUp end={1000} duration={5} enableScrollSpy={true} scrollSpyOnce={false} scrollSpyDelay={1000} />+
                 </div>
               </div>
-              <div className="flex flex-col items-center">
+              <div className="flex flex-col md:items-center">
                 <h3 className="font-subheadings tracking-wider">Plant varieties</h3>
-                <div className="text-xl md:text-2xl text-brown">
+                <div className="text-xl md:text-2xl text-brown text-center md:text-left">
                   <CountUp end={200} duration={5} enableScrollSpy={true} scrollSpyOnce={false} scrollSpyDelay={1000} />+
                 </div>
               </div>
-              <div className="flex flex-col items-center">
+              <div className="flex flex-col md:items-center">
                 <h3 className="font-subheadings tracking-wider">Repeat Customers</h3>
-                <div className="text-xl md:text-2xl text-brown">
+                <div className="text-xl md:text-2xl text-brown text-center md:text-left">
                   <CountUp end={300} duration={5} enableScrollSpy={true} scrollSpyOnce={false} scrollSpyDelay={1000} />+
                 </div>
               </div>
             </div>
           </div>
           {/* Experts */}
-          <div className="py-12">
+          <div className="py-4 md:py-12">
             <h3 data-aos="fade-right">Meet our experts</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8">
               <div className="flex flex-col items-center max-w-[100%] overflow-hidden mx-auto relative" data-aos="flip-down">

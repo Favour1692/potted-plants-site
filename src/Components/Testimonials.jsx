@@ -34,9 +34,9 @@ const Testimonials = () => {
     <div className="py-4 slider-container w-[80%] mx-auto" data-aos="fade-up" data-aos-delay="200">
       <Slider {...settings}>
         {testimonials.map((data) => (
-          <div key={data.id} className="flex flex-col p-8 gap-4 justify-center items-center">
+          <div key={data.id} className="flex flex-col py-4 gap-4 justify-center items-center">
             <RiDoubleQuotesR className="text-5xl text-thick mx-auto font-semibold" />
-            <p className="text-xl w-1/2 mx-auto">{data.text}</p>
+            <p className="text-xl w-full mx-auto">{data.text}</p>
           </div>
         ))}
       </Slider>
