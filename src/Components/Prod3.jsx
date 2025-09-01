@@ -1,9 +1,9 @@
 import React from "react";
 import ProdCard from "./ProdCard";
-import air1 from "../Pages/Images/Products/air1.jpg";
-import air2 from "../Pages/Images/Products/air2.jpg";
-import air3 from "../Pages/Images/Products/air3.jpg";
-import air4 from "../Pages/Images/Products/air4.jpg";
+import air1 from "../Pages/Images/Products/air1.webp";
+import air2 from "../Pages/Images/Products/air2.webp";
+import air3 from "../Pages/Images/Products/air3.webp";
+import air4 from "../Pages/Images/Products/air4.webp";
 
 const Prod3 = () => {
   return (

@@ -4,25 +4,57 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .menuStyle {
-    @apply hover:text-primary;
-  }
+@layer base {
   nav {
     @apply fixed top-0 left-0 w-full py-4 z-50;
   }
   h1 {
-    @apply font-text text-4xl lg:text-6xl text-thick;
+    @apply font-text text-3xl md:text-4xl lg:text-6xl text-thick;
   }
   h3 {
     @apply font-headings text-2xl lg:text-3xl text-thick mb-2;
   }
   h2 {
-    @apply font-text font-semibold text-2xl lg:text-3xl text-thick mb-2;
+    @apply font-text font-semibold text-xl md:text-3xl text-thick mb-2;
   }
   p,
   span,
   button {
     @apply font-text;
+  }
+  .slick-list {
+    margin: 0 -2px; /* half of the gap you want */
+  }
+
+  /* add padding inside each slide wrapper */
+  .slick-slide > div {
+    padding: 0 2px; /* half of the gap you want */
+    height: 100%;
+  }
+
+  .slick-slide {
+    height: auto !important;
+  }
+  /* .slick-prev:before,
+  .slick-next:before {
+    @apply text-primary bg-thick text-3xl;
+    opacity: 1;
+  }
+  .slick-prev:hover:before,
+  .slick-next:hover:before {
+    @apply text-thick bg-primary;
+  }
+
+  .slick-track {
+    @apply flex gap-4 !important;
+  }
+  .slick-slide {
+    height: auto !important;
+  } */
+}
+
+@layer utilities {
+  .menuStyle {
+    @apply hover:text-primary;
   }
 }

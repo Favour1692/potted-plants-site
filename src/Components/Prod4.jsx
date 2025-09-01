@@ -1,11 +1,11 @@
 import React from "react";
 import ProdCard from "./ProdCard";
-import hang1 from "../Pages/Images/Products/hang1.jpg";
-import hang2 from "../Pages/Images/Products/hang2.jpg";
-import hang3 from "../Pages/Images/Products/hang3.jpg";
-import hang4 from "../Pages/Images/Products/hang4.jpg";
-import hang5 from "../Pages/Images/Products/hang5.jpg";
-import hang6 from "../Pages/Images/Products/hang6.jpg";
+import hang1 from "../Pages/Images/Products/hang1.webp";
+import hang2 from "../Pages/Images/Products/hang2.webp";
+import hang3 from "../Pages/Images/Products/hang3.webp";
+import hang4 from "../Pages/Images/Products/hang4.webp";
+import hang5 from "../Pages/Images/Products/hang5.webp";
+import hang6 from "../Pages/Images/Products/hang6.webp";
 
 const Prod4 = () => {
   return (

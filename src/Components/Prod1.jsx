@@ -1,17 +1,17 @@
 import React from "react";
 import ProdCard from "./ProdCard";
-import indoor1 from "../Pages/Images/Products/indoor1.jpg";
-import indoor2 from "../Pages/Images/Products/indoor2.jpg";
-import indoor3 from "../Pages/Images/Products/indoor3.jpg";
-import indoor4 from "../Pages/Images/Products/indoor4.jpg";
-import indoor5 from "../Pages/Images/Products/indoor5.jpg";
-import indoor6 from "../Pages/Images/Products/indoor6.jpg";
-import indoor7 from "../Pages/Images/Products/indoor7.jpg";
-import indoor8 from "../Pages/Images/Products/indoor8.jpg";
-import indoor9 from "../Pages/Images/Products/indoor9.jpg";
-import indoor10 from "../Pages/Images/Products/indoor10.jpg";
-import indoor11 from "../Pages/Images/Products/indoor11.jpg";
-import indoor12 from "../Pages/Images/Products/indoor12.jpg";
+import indoor1 from "../Pages/Images/Products/indoor1.webp";
+import indoor2 from "../Pages/Images/Products/indoor2.webp";
+import indoor3 from "../Pages/Images/Products/indoor3.webp";
+import indoor4 from "../Pages/Images/Products/indoor4.webp";
+import indoor5 from "../Pages/Images/Products/indoor5.webp";
+import indoor6 from "../Pages/Images/Products/indoor6.webp";
+import indoor7 from "../Pages/Images/Products/indoor7.webp";
+import indoor8 from "../Pages/Images/Products/indoor8.webp";
+import indoor9 from "../Pages/Images/Products/indoor9.webp";
+import indoor10 from "../Pages/Images/Products/indoor10.webp";
+import indoor11 from "../Pages/Images/Products/indoor11.webp";
+import indoor12 from "../Pages/Images/Products/indoor12.webp";
 
 const Prod1 = () => {
   return (

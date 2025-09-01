@@ -1,13 +1,13 @@
 import React from "react";
 import ProdCard from "./ProdCard";
-import outdoor1 from "../Pages/Images/Products/outdoor1.jpg";
-import outdoor2 from "../Pages/Images/Products/outdoor2.jpg";
-import outdoor3 from "../Pages/Images/Products/outdoor3.jpg";
-import outdoor4 from "../Pages/Images/Products/outdoor4.jpg";
-import outdoor5 from "../Pages/Images/Products/outdoor5.jpg";
-import outdoor6 from "../Pages/Images/Products/outdoor6.jpg";
-import outdoor7 from "../Pages/Images/Products/outdoor7.jpg";
-import outdoor8 from "../Pages/Images/Products/outdoor8.jpg";
+import outdoor1 from "../Pages/Images/Products/outdoor1.webp";
+import outdoor2 from "../Pages/Images/Products/outdoor2.webp";
+import outdoor3 from "../Pages/Images/Products/outdoor3.webp";
+import outdoor4 from "../Pages/Images/Products/outdoor4.webp";
+import outdoor5 from "../Pages/Images/Products/outdoor5.webp";
+import outdoor6 from "../Pages/Images/Products/outdoor6.webp";
+import outdoor7 from "../Pages/Images/Products/outdoor7.webp";
+import outdoor8 from "../Pages/Images/Products/outdoor8.webp";
 
 const Prod2 = () => {
   return (

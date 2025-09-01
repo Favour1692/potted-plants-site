@@ -1,10 +1,10 @@
 import React from "react";
 import ProdCard from "./ProdCard";
-import gift1 from "../Pages/Images/Products/gift1.jpg";
-import gift2 from "../Pages/Images/Products/gift2.jpg";
-import gift3 from "../Pages/Images/Products/gift3.jpg";
-import gift4 from "../Pages/Images/Products/gift4.jpg";
-import gift5 from "../Pages/Images/Products/gift5.jpg";
+import gift1 from "../Pages/Images/Products/gift1.webp";
+import gift2 from "../Pages/Images/Products/gift2.webp";
+import gift3 from "../Pages/Images/Products/gift3.webp";
+import gift4 from "../Pages/Images/Products/gift4.webp";
+import gift5 from "../Pages/Images/Products/gift5.webp";
 
 const Prod5 = () => {
   return (

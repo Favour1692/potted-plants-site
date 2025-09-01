@@ -12,7 +12,7 @@ export default {
       },
       colors: {
         thick: "#31473a",
-        primary: "#7c8363",
+        primary: "#d8b97b",
         secondary: "#edf4f2",
       },
       fontFamily: {
