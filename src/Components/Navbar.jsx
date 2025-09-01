@@ -93,16 +93,16 @@ function Navbar() {
         <AnimatePresence mode="wait">
           {open && (
             <motion.div
-              initial={{ opacity: 0, x: -100 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -100 }}
+              initial={{ opacity: 0, y: -100 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -100 }}
               transition={{
                 duration: 0.3,
               }}
               className="md:hidden absolute top-0 left-0 w-full h-[100vh] bg-[#333]/10 backdrop-blur-sm"
               onClick={handleClick}
             >
-              <div className="w-[60%] h-full flex flex-col gap-6 py-16 bg-[#333] items-center">
+              <div className="w-full h-auto flex flex-col gap-6 py-16 bg-[#333] items-center">
                 {Menu.map((data) => (
                   <NavLink
                     to={data.link}
