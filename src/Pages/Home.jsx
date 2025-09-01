@@ -336,7 +336,7 @@ function Home() {
                 </div>
                 <div className="text-center">
                   <button
-                    className="rounded-lg px-3"
+                    className="bg-thick text-primary hover:bg-primary hover:text-thick py-2 rounded-lg px-3"
                     data-aos="fade-left"
                     data-aos-delay="400"
                   >
